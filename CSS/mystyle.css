@@ -42,6 +42,12 @@ h1 {
 h2 {
 	font-size:250%;
 	line-height: 300%;
+}
+h3 {
+	font-size:80%;
+	line-height: 240%;
+}
+.username {
 	background-image: url(../Images/PostItNote.png);
 	background-size:cover;
 	top: 20%;
@@ -52,23 +58,17 @@ h2 {
 	z-index:5;
 	position: absolute;
 }
-h3 {
+.message {
 	background-image: url(../Images/bg1.png);
 	background-size: 100%;
-	width: 50%;
-	font-size:80%;
-	line-height: 240%;
 	position: absolute;
 	top: 40%;
 	left: 30%;
 	padding:30px;
+	width: 50%;
+	height: 30%;
 	margin:auto;
 	z-index:3;
-}
-
-.padpaper {
-	z-index: 1;
-	width: 50%;
 }
 #streamers {
 	background-image:url(../Images/1.jpg);
